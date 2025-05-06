@@ -30,7 +30,10 @@ Below is the importance of each feature ranked using the dataframe function. Thi
 ![image](https://github.com/user-attachments/assets/919c1817-ebab-44d3-9d7d-480dbcde625a)
 
 After we ran this with our data, below is the confusion matrix of our classification on the test data. This shows us how well we did in our calssification on each different category and what the overall accuracy of our method is. 
-![image](https://github.com/user-attachments/assets/f8072dd5-7c47-4af7-8737-1c7951c8b7f9)
+![image](https://github.com/user-attachments/assets/f8072dd5-7c47-4af7-8737-1c7951c8b7f9)  
+
+There are many important features that go into credit, and the first bar graph clearly displays our important features and the confusion matrix expresses how well we do on each of our different credit types. Overall this method using random forrest classifier did very well with a high accuracy score.   
+
 
 Homework 4 - 
 We are attempting to determine the weather type based on a given dataset that has weather information using SVR and RBF. This allows us to determine given weather data what type of weather the data is currently in. The function does pretty well at determining what type it is, with 0.94 accuracy on each of our different types. 
@@ -41,3 +44,4 @@ https://www.kaggle.com/datasets/nikhil7280/weather-type-classification
 Below is the confusion matrix based on our calculations 
 ![image](https://github.com/user-attachments/assets/3957d2fc-8dd4-430a-9c0b-1ed56d7c0af5)
 
+This shows how SVR with RBF does a very good job at classifying what weather type it is, and that this model has good accuracy with each variable having a high percentage of correct classifications. 
